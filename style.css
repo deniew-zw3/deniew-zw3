@@ -1,0 +1,153 @@
+body {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  font-family: "Noto Sans Lao", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  /* Uncomment if you want to center the content vertically and take full viewport height */
+  /* justify-content: center; */
+  /* height: 100vh; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%; /* Increase the container width */
+  max-width: 1500px; /* Optional max-width for larger screens */
+}
+
+.name {
+  padding: 2rem 5rem; /* Increase padding for a larger name section */
+  font-size: 2.5rem; /* Increase font size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d40d00;
+  background-color: #d5c8ff;
+  border-radius: 10px;
+  width: 100%; /* Make the name element take full width of the container */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  /* Optional border for visual aid, uncomment if needed */
+  /* border: 1px solid; */
+}
+
+.add {
+  margin-top: 50px;
+  padding: 15px 30px; /* Increase padding for larger button */
+  background-color: #02f0a1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem; /* Increase font size */
+  /* Hover effect */
+  transition: background-color 0.3s ease;
+}
+
+.add:hover {
+  background-color: #0056b3;
+}
+
+.table {
+  width: 100%; /* Ensure table takes the full width of its container */
+  margin-top: 20px; /* Add margin for spacing */
+  border-collapse: collapse; /* Collapse table borders for cleaner look */
+  font-size: 1rem; /* Decrease font size for table text */
+}
+
+.table th,
+.table td {
+  padding: 15px; /* Increase padding for larger cells */
+  border: 1px solid #ddd; /* Border for table cells */
+  text-align: left; /* Align text to the left */
+}
+
+.table-primary th {
+  background-color: #00f784;
+  color: black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Space between form elements */
+  width: 100%; /* Make form take full width of container */
+  max-width: 600px; /* Optional max-width for larger screens */
+}
+
+.form label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.form input,
+.form select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* General button styling */
+.form button {
+  padding: 1rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+/* Save button styling */
+.form-buttons .add {
+  background-color: #28a745; /* Green */
+}
+
+.form-buttons .add:hover {
+  background-color: #218838; /* Darker green */
+}
+
+/* Cancel button styling */
+.form-buttons .cancel {
+  background-color: #dc3545; /* Red */
+}
+
+.form-buttons .cancel:hover {
+  background-color: #692121; /* Darker red */
+}
+
+.name-add {
+  padding: 2rem 5rem; /* Increase padding for a larger name section */
+  font-size: 2.5rem; /* Increase font size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1065e5;
+  background-color: #aec9ee;
+  border-radius: 10px;
+  width: 100%; /* Make the name element take full width of the container */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  /* Optional border for visual aid, uncomment if needed */
+  /* border: 1px solid; */
+}
+
+.name-edit {
+    padding: 2rem 5rem; /* Increase padding for a larger name section */
+    font-size: 2.5rem; /* Increase font size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8500c2;
+    background-color: #feffc2;
+    border-radius: 10px;
+    width: 100%; /* Make the name element take full width of the container */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    /* Optional border for visual aid, uncomment if needed */
+    /* border: 1px solid; */
+  }
